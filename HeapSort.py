@@ -19,7 +19,7 @@ def BuildHeap(A):
     
     heapSize = len(A)
     
-    for i in range (int(heapSize/2), -1, -1):
+    for i in range (int(heapSize/2)-1, -1, -1):
         MaxHeapify(A, heapSize, i)
         
 
@@ -35,7 +35,7 @@ def HeapSort(A):
         MaxHeapify(A, heapSize, 0)
         
 
-A = [2,8,1,4,14,7,16,10,9,3]
+A = [2, 8, 1, 4, 14, 7, 16, 10, 9, 3]
 HeapSort(A)
 print(A)
 
