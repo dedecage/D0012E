@@ -45,7 +45,7 @@ A = [2, 8, 5, 3, 9, 4, 1]
 MergeSort(A)
 print(A)
 
-# Algorithm is not in place (divided arrays take up extra memory)
+# Algorithm is not in-place (divided arrays take up extra memory)
 # Algorithm is stable (no left- to right rearranging during merge step)
 # Best case running time: O(nlogn)
 # Worst case running time: O(nlogn)
