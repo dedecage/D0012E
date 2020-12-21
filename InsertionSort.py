@@ -16,7 +16,7 @@ A = [5, 2, 4, 6, 1, 3]
 InsertionSort(A)
 print(A)
 
-# Algorithm is in place
+# Algorithm is in-place
 # Algorithm is stable
 # Best case running time: O(n) (when already sorted)
 # Worst case running time: O(n^2) (when sorted in reverse order)
