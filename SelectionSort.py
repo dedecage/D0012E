@@ -17,7 +17,7 @@ A = [2, 8, 5, 3, 9, 4, 1]
 SelectionSort(A)
 print(A)
 
-# Algorithm is in place
+# Algorithm is in-place
 # Algorithm is not stable due to unregulated swap, but can be made stable
 # Best case running time: O(n^2)
 # Worst case running time: O(n^2)
