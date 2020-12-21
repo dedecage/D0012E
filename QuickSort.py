@@ -37,7 +37,7 @@ A = [2, 8, 5, 3, 9, 4, 1]
 QuickSort(A, 0, 6)
 print(A)
 
-# Algorithm is in place (no subarrays created as opposed to merge sort)
+# Algorithm is in-place (no subarrays created as opposed to merge sort)
 # Algorithm is not stable
 # Best case running time: O(nlogn)
 # Worst case running time: O(n^2) (consistently bad pivot elements, reverse sorted)
