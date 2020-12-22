@@ -38,8 +38,6 @@ print(A)
 
 # Algorithm is not in place
 # Algorithm is stable (no left- to right rearrangements)
-# Best case running time O(d(n+k)) (d = number cycle. Ex: 3 where max is 100-999)
+# Best case running time O(d(n+k)) (d = number cycles, i.e 3 where max is in range 100-999)
 # Worst case running time O(d(n+k))
 # Average case running time O(d(n+k))
-
-# Time complexities assume the use of counting sort
