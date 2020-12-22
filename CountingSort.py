@@ -2,7 +2,6 @@ def CountingSort(A):
     
     size = len(A)
     output = [0] * size
-
     count = [0] * 10
 
     # Store the count of each elements in count array
