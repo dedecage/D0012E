@@ -4,7 +4,6 @@ def MergeSort(A):
         return A
 
     else:
-        
         mid = len(A) // 2
     
         L = A[:mid]
