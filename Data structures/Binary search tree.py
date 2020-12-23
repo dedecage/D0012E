@@ -1,5 +1,5 @@
 """ Binary search tree, search: O(h), insertion: O(h), deletion: O(h),
-    where h is the height of the tree. Note that O(h) = O(n) if the
+    where h is the height of the tree. O(h) = O(n) if the
     tree is skewed. """
 
 class Node:
