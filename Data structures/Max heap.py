@@ -7,7 +7,7 @@ class MaxHeap:
         self.size = len(A)
         self.heap = A
 
-        # Build heap if array is passed to contstructor
+        # Build heap if array is passed to constructor
         for i in range(int(self.size//2), -1, -1):
             self.maxHeapify(i)
 
