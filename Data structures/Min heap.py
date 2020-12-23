@@ -1,6 +1,7 @@
+""" Insertion: O(logn), Delete min: O(logn), Build heap: O(n). """
+
 class MinHeap: 
      
-
     def __init__(self, A=[]):
         
         self.size = len(A)
@@ -93,9 +94,3 @@ minHeap2 = MinHeap(A)
 
 for i in range(0, 9):
     print(minHeap2.remove())
-
-
-
-# Insertion: O(logn)
-# Delete min: O(logn)
-# Build heap: O(n)
