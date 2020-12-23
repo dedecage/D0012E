@@ -37,9 +37,10 @@ print(A)
 # Best case running time O(n+k) (k = input range)
 # Worst case running time O(n+k)
 # Average case running time O(n+k)
+# Space complexity O(n+k)
 
 # Counting sort is useful when the input range is small and space complexity is
-# of little importance. The algorithm also has a space complexity of O(n+k)
+# of little importance.
 
 # https://www.youtube.com/watch?v=7zuGmKfUt7s&feature=emb_logo
 # Note that the video creates an output array based on cumulative count
