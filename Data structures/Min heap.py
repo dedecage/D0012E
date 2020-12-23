@@ -6,7 +6,8 @@ class MinHeap:
         
         self.size = len(A)
         self.heap = A
-        
+
+        # Build heap if array is passed to contstructor
         for i in range(int(self.size//2), -1, -1):
             self.minHeapify(i)
 
