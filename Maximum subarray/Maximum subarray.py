@@ -28,3 +28,6 @@ print(FindMaximumSubarray(A))
 
 A = [-2, -3, 4, -1, -2, 1, 5, -3]
 print(FindMaximumSubarray(A))
+
+A = [-2, -3, -4, -1, -2, -1, -5, -3]
+print(FindMaximumSubarray(A))
